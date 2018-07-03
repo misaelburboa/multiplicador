@@ -3,7 +3,7 @@ import configureStore from './stores/configureStore';
 import { Provider } from 'react-redux';
 import Score from './components/Score';
 import TableForm from './components/TableForm';
-import './App.css';
+import './styles/styles.css'
 
 const store = configureStore();
 
@@ -12,8 +12,10 @@ class App extends Component {
     return (
       <Provider store={store} >
         <div className="App">
-          <TableForm />
-          <Score />
+          <div className="multiplicador">
+            <Score />
+            <TableForm />
+          </div>
         </div>
       </Provider>
     );

@@ -1,0 +1,14 @@
+.table-form {
+    margin-left: 150px;
+}
+
+.table-form .multiplyForm {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.table-form .question {
+    font-size: 50px;
+    font-weight: bold;
+}

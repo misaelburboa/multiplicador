@@ -1,0 +1,8 @@
+.player-board .score-container {
+    padding-top: 30px;
+}
+.player-board .score-container .score {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
