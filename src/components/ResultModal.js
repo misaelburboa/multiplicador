@@ -10,16 +10,6 @@ class ResultModal extends React.Component {
         this.props.closeModal();
     }
 
-    handleOpenModal = () => {
-        document.addEventListener("keupdown", this.handleEnter, false);
-    }
-
-    handleEnter = (e) => {
-        if (e.keyCode === 13) {
-            this.closeModal();
-        }
-    }
-
     render(){
         return (
             <div className="resultModal">

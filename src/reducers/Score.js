@@ -4,7 +4,6 @@ const scoreDefaultState = {
     isOpen: false
  };
 export default  (state = scoreDefaultState, action) => {
-    console.log(action.type);
     switch (action.type) {
         case "MOVE_SCORE":
             return {
