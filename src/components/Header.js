@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <nav>
             <NavLink to="/" activeClassName="is-active" exact={true} >Inicio</NavLink>
-            <NavLink to="/register" activeClassName="is-active">Register User</NavLink>
+            <NavLink to="/register" activeClassName="is-active">Cambiar Nombre De Jugador</NavLink>
         </nav>
     );
 }

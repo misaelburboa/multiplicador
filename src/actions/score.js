@@ -13,6 +13,15 @@ export const startMoveScore = (playerInfo) => {
     };
 };
 
+export const addPlayerName = (playerName) => {
+    return (dispatch) => {
+        dispatch({
+            type: 'ADD_PLAYER_NAME',
+            player: playerName
+        })
+    }
+}
+
 export const closeModal = () => {
     return (dispatch) => {
         dispatch({

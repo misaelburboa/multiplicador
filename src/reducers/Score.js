@@ -20,6 +20,11 @@ export default  (state = scoreDefaultState, action) => {
                 ...state,
                 isOpen: false
             }
+        case "ADD_PLAYER_NAME" :
+            return {
+                ...state,
+                player: action.player
+            }
         default :
             return state;
         
